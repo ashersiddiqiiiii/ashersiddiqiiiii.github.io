@@ -1,0 +1,3 @@
+<!doctype html>
+
+<img src="slide1" alt="https://image.slidesharecdn.com/basiccomponentsofcomputersystem-160106151801/75/basic-components-of-computer-system-2-2048.jpg?cb=1665816172" >
