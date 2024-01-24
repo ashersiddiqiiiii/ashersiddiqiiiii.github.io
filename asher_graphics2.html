@@ -1,0 +1,47 @@
+<!doctype html>
+<html> svg file shapes</html>
+<title> advanced shapes </title>
+
+
+<body>
+
+<h1> first advanced shape </h1>
+	<h3> star </h3>
+		<svg width='250' height='200'>
+			<polygon points='100,10 40,198 190,78 10,78 168,198' fill='lime' stroke='purple'/>
+			</svg>
+		
+		
+	
+	<h3> star 2 </h3>
+	<svg width='250' height='200'>
+			<polygon points='100,10 40,198 190,78 10,78 168,198 40,200 100,72' fill='yellow' stroke='blue'/>
+			</svg>
+			<hr>
+		<h3> stop sign </h3>
+			<svg width='400' height='120'>
+				<polygon points=' 40,13 80,13 110,40 110,80 80,110, 40,110 13,80 13,40' fill='red' stroke='black'/>
+				<text x='30' y='70'font-size='25' fill='white'> STOP </text>
+				<hr> 
+					<h3> diagonal line </h3> 
+						<svg width='400' height='120'>
+							<line x1='0' y1='0' x2='50' y2='100' stroke='brown' />
+							<line x1='0' y1='0' x2='95' y2='150' stroke='brown' />
+							</svg>
+						<h3> straight line </h3>
+						<svg width='400' height='120'>
+						<line x1='0' y1='0' x2='0' y2='100' stroke='brown' />
+						<line x1='0' y1='0' x2='100' y2='0' stroke='brown' />
+						</svg>
+					
+		<hr>
+		<h3> linear gradient star </h3>
+		<svg width='250' height='200'>
+			<polygon points='100,10 40,198 190,78 10,78 168,198' fill='url(#s1)' stroke='purple'/>
+			<defs>
+			<lineargradient id='s1' x1='0%' y1='0%' x2='100%' y2='0%'>
+			<stop offset='0%' style='stop-color:yellow;'/>
+			<stop offset='100%' style='stop-color:red;'/>
+			</lineargradient>
+			</defs>
+			</svg>
